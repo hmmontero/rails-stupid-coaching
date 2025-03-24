@@ -1,0 +1,13 @@
+  <div class="container">
+    <div class="question">
+      <p><%= @question %></p>
+      <p class="author">— You</p>
+    </div>
+
+    <div class="answer">
+      <p><%= @answer %></p>
+      <p class="author">— Your coach</p>
+    </div>
+
+    <%= link_to "Ask another question", "/ask", class: "btn btn-success mt-3" %>
+  </div>
